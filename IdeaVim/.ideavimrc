@@ -1,0 +1,111 @@
+" .ideavimrc is a configuration file for IdeaVim plugin. It uses
+"   the same commands as the original .vimrc configuration.
+" You can find a list of commands here: https://jb.gg/h38q75
+" Find more examples here: https://jb.gg/share-ideavimrc
+
+
+"" -- Suggested options --
+" Show a few lines of context around the cursor. Note that this makes the
+" text scroll if you mouse-click near the start or end of the window.
+let mapleader = " "
+set scrolloff=5
+set showmode
+set nu
+set ideajoin
+set ideastatusicon=gray
+set number relativenumber
+set smarttab
+set autoindent
+set nowrap
+set smartcase
+set showmatch
+set title
+set ruler
+set hlsearch
+
+" Do incremental searching.
+set incsearch
+
+" Copy context to the windows clipboard for unnamed registries
+set clipboard=unnamed
+set clipboard^=ideaput
+
+" Don't use Ex mode, use Q for formatting.
+map Q gq
+
+" Plugins Settings
+set surround
+set multiple-cursors
+set commentary
+set argtextobj
+set easymotion
+set textobj-entire
+set ReplaceWithRegister
+set exchange
+
+" Normal Mode Keybindings
+"
+" Add custom keybindings for Normal Mode here.
+nnoremap <leader>f /
+nnoremap <leader>n :nohl<CR>
+nnoremap <leader>w :w<CR>
+nnoremap <leader>q :q<CR>
+nnoremap <leader>x :x<CR>
+nnoremap <leader>j G
+nnoremap <leader>k gg
+nnoremap <c-a> ggVG
+nnoremap H ^
+nnoremap L $
+nnoremap <leader>y yy
+nnoremap <leader>d dd
+
+" Case sensitive key word search
+nnoremap <leader>// /\V
+nnoremap <leader>? /\m
+
+" IDE Actions Mappings
+nmap <S-Tab> <action>(PreviousTab)
+nmap <Tab> <action>(NextTab)
+nmap <leader>rr <action>(IdeaVim.ReloadVimRc.reload)
+nmap <leader>v <action>(SplitVertically)
+nmap <leader>ff <action>(ReformatCode)
+nmap <leader>o <action>(ShowErrorDescription)
+nmap ]d <action>(GotoNextError)
+nmap [d <action>(GotoPreviousError)
+nmap <leader>ca <action>(ShowIntentionActions)
+nmap <leader>gd <action>(GotoDeclaration)
+nmap <leader>gi <action>(GotoImplementation)
+nmap <leader>gs <action>(GotoSuperMethod)
+nmap <leader>r <action>(RenameElement)
+nmap <leader>g <action>(Generate)
+nmap <leader>gm <action>(Git.Menu)
+nmap <leader>ss <action>(ShowSettings)
+
+" Navigate between split editor windows
+nnoremap <leader>h <C-w>h
+nnoremap <leader>l <C-w>l
+
+" Insert MOde Keybindings
+"
+" Add custom keybindings for Insert Mode here.
+"
+" Map pressing jj to exit insert mode
+inoremap jj <Esc>
+
+" --- Enable IdeaVim plugins https://jb.gg/ideavim-plugins
+
+" Highlight copied text
+Plug 'machakann/vim-highlightedyank'
+" Commentary plugin
+Plug 'tpope/vim-commentary'
+
+
+"" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
+"" Map \r to the Reformat Code action
+"map \r <Action>(ReformatCode)
+
+"" Map <leader>d to start debug
+"map <leader>d <Action>(Debug)
+
+"" Map \b to toggle the breakpoint on the current line
+"map \b <Action>(ToggleLineBreakpoint)
