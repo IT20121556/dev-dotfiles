@@ -1,0 +1,18 @@
+[filesystem "Oracle Corporation|11.0.20|439782002"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "Oracle Corporation|11.0.20|-1032760450"]
+	timestampResolution = 1000 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "Oracle Corporation|11.0.21|439782002"]
+	timestampResolution = 1002 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "Oracle Corporation|11.0.21|-1032760450"]
+	timestampResolution = 1017 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "Eclipse Adoptium|17.0.9|-1032760450"]
+	timestampResolution = 1004 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "Eclipse Adoptium|17.0.10|439782002"]
+	timestampResolution = 1010 microseconds
+	minRacyThreshold = 0 nanoseconds
