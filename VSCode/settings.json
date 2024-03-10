@@ -1,0 +1,395 @@
+{
+  // ========================== Workbench Settings ==========================
+  "workbench.startupEditor": "readme",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorTheme": "Everforest Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.settings.editor": "ui",
+  "workbench.activityBar.location": "top",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.list.smoothScrolling": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 20,
+  "editor.semanticHighlighting.enabled": true,
+  // ========================== Emmet Settings ==========================
+  "emmet.triggerExpansionOnTab": true,
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist",
+    "java",
+    "json",
+    "yaml"
+  ],
+  // ========================== Editor Settings ==========================
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "300",
+  "editor.lineHeight": 29,
+  "editor.fontLigatures": "'calt', 'ss01'",
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "always",
+    "source.organizeImports": "always"
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorSurroundingLines": 5,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineNumbers": "relative",
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.suggest.insertMode": "replace",
+  "editor.suggestFontSize": 12,
+  "editor.wordWrap": "on",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.indentation": false,
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.letterSpacing": 0.2,
+  "editor.renderLineHighlight": "gutter",
+  "editor.matchBrackets": "near",
+  "editor.renderWhitespace": "selection",
+  "editor.tabSize": 2,
+  // ========================== Terminal Settings ==========================
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontSize": 14.5,
+  "terminal.integrated.fontWeight": "300",
+  // ========================== Common Settings ==========================
+  "errorLens.fontStyleItalic": true,
+  "everforest.italicKeywords": true,
+  "everforest.italicComments": true,
+  "everforest.darkCursor": "red",
+  "everforest.darkSelection": "red",
+  "everforest.darkWorkbench": "flat",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "extensions.ignoreRecommendations": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+  "update.showReleaseNotes": false,
+  "window.density.editorTabHeight": "compact",
+  "breadcrumbs.enabled": true,
+  "git.autofetch": true,
+  // ========================== Prettier Settings ==========================
+  "prettier.semi": false,
+  "prettier.singleAttributePerLine": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  // ========================== Language Formatter Settings ==========================
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // ========================== Java Settings ==========================
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-11",
+      "path": "C:/Program Files/Java/jdk-11"
+    }
+  ],
+  "java.configuration.detectJdksAtStart": true,
+  "java.jdt.ls.lombokSupport.enabled": true,
+  "java.trace.server": "messages",
+  "java.referencesCodeLens.enabled": true,
+  "java.implementationsCodeLens.enabled": true,
+  "java.completion.enabled": true,
+  "java.format.enabled": true,
+  "java.format.comments.enabled": true,
+  "java.format.onType.enabled": true,
+  "java.foldingRange.enabled": true,
+  "java.showBuildStatusOnStart.enabled": "notification",
+  "redhat.telemetry.enabled": false,
+  "netbeans.javaSupport.enabled": false,
+  // ========================== YAML Extension Settings ==========================
+  "yaml.format.enable": true,
+  "yaml.validate": true,
+  "yaml.completion": true,
+  // ========================== Author Tag Extension Settings ==========================
+  "author-generator.author": "[pramod_a]",
+  "author-generator.email": "[pramod_a@epiclanka.net]",
+  "author-generator.updateOnSave": true,
+  // ========================== Spell Checker Extension Settings ==========================
+  "cSpell.userWords": [
+    "calt",
+    "Cascadia",
+    "Everforest",
+    "Fira",
+    "pramod"
+  ],
+  // ========================== Project Manager Extension Settings ==========================
+  "projectManager.git.baseFolders": [
+    "E:/Epic Lanka"
+  ],
+  "projectManager.sortList": "Recent",
+  // ========================== VIM Editor Settings ==========================
+  "vim.leader": "<space>",
+  "vim.foldfix": false,
+  "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.textColor": "white",
+  "vim.hlsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.surround": true,
+  "vim.sneak": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<tab>"
+      ],
+      "commands": [
+        "workbench.action.nextEditor"
+      ]
+    },
+    {
+      "before": [
+        "<S-tab>"
+      ],
+      "commands": [
+        "workbench.action.previousEditor"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "e"
+      ],
+      "commands": [
+        "workbench.action.toggleSidebarVisibility"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "t"
+      ],
+      "commands": [
+        "workbench.action.terminal.toggleTerminal"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f"
+      ],
+      "after": [
+        "/"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "n"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "r"
+      ],
+      "commands": [
+        "editor.action.rename"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "w"
+      ],
+      "commands": [
+        ":w"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "q"
+      ],
+      "commands": [
+        ":q"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "x"
+      ],
+      "commands": [
+        ":x"
+      ]
+    },
+    {
+      "before": [
+        "<c-a>"
+      ],
+      "after": [
+        "g",
+        "g",
+        "V",
+        "G"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "o"
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ]
+    },
+    {
+      "before": [
+        "]",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.next"
+      ]
+    },
+    {
+      "before": [
+        "[",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.prev"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "c",
+        "a"
+      ],
+      "commands": [
+        "editor.action.quickFix"
+      ]
+    },
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "i"
+      ],
+      "commands": [
+        "extension.toggleBool"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "v"
+      ],
+      "commands": [
+        "workbench.action.splitEditor"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "h"
+      ], //To navigate to the left side of the split window
+      "after": [
+        "<C-w>",
+        "h"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "l"
+      ], //To navigate to the right side of the split window
+      "after": [
+        "<C-w>",
+        "l"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "j"
+      ],
+      "after": [
+        "G"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "k"
+      ],
+      "after": [
+        "g",
+        "g"
+      ]
+    }
+  ]
+}
